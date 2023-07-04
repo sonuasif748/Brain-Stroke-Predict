@@ -1,0 +1,22 @@
+Steps:
+
+1. python -m venv venv  # To create a virtual environment
+2. venv\scripts\activate # Activate the venv using this command (use cmd) 
+3. pip install fastapi # Install the fastapi package
+4. install pandas, numpy, scikitlearn, statsmodels and gradio
+
+
+Steps to Install Project:
+
+1. python -m venv venv  # To create a virtual environment
+2. venv\scripts\activate # Activate the venv using this command (use cmd)
+3. pip install -r requirements.txt # To install the packages
+4. uvicorn main:app --reload # Run the fastapi project (http://127.0.0.1:8000/docs)
+5. un-comment the line number 70 (gradio_view()) function, then run the above command (http://127.0.0.1:7860/)
+6. done open the above link and fill the details and predict
+
+Steps to create ML model:
+
+1. http://127.0.0.1:8000/docs, hit the /api/preprocess api to generate Model
+2. /api/predict api to predict the brain stroke
+
